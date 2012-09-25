@@ -7,28 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		696D4923150D5EC200D8D6CC /* LSPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 696D4922150D5EC200D8D6CC /* LSPresentationController.m */; };
+		696D4926150D61A600D8D6CC /* LSCompositionRenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 696D4925150D61A600D8D6CC /* LSCompositionRenderView.m */; };
+		696D4929150DE1AB00D8D6CC /* LSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 696D4928150DE1AB00D8D6CC /* LSModel.m */; };
+		696D492C150DE1F700D8D6CC /* LSLyricFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 696D492B150DE1F700D8D6CC /* LSLyricFile.m */; };
+		696D492F150DE56D00D8D6CC /* LSLyricChunk.m in Sources */ = {isa = PBXBuildFile; fileRef = 696D492E150DE56D00D8D6CC /* LSLyricChunk.m */; };
+		69841A301505EBAC00AC0F23 /* LSLyricsContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69841A2F1505EBAC00AC0F23 /* LSLyricsContainerView.m */; };
+		69841A361506BA7900AC0F23 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69841A351506BA7900AC0F23 /* IOKit.framework */; };
 		69A191A91504185400995CE5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A191A81504185400995CE5 /* Cocoa.framework */; };
 		69A191B31504185400995CE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69A191B11504185400995CE5 /* InfoPlist.strings */; };
 		69A191B51504185400995CE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A191B41504185400995CE5 /* main.m */; };
 		69A191B91504185400995CE5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 69A191B71504185400995CE5 /* Credits.rtf */; };
 		69A191BC1504185400995CE5 /* LSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A191BB1504185400995CE5 /* LSAppDelegate.m */; };
 		69A191BF1504185400995CE5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A191BD1504185400995CE5 /* MainMenu.xib */; };
+		69A191CB1504229900995CE5 /* LSMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A191CA1504229900995CE5 /* LSMainController.m */; };
+		69A191CC15042D5200995CE5 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A191C715041CEA00995CE5 /* Quartz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		696D4921150D5EC200D8D6CC /* LSPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSPresentationController.h; sourceTree = "<group>"; };
+		696D4922150D5EC200D8D6CC /* LSPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSPresentationController.m; sourceTree = "<group>"; };
+		696D4924150D61A600D8D6CC /* LSCompositionRenderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LSCompositionRenderView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		696D4925150D61A600D8D6CC /* LSCompositionRenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LSCompositionRenderView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		696D4927150DE1AB00D8D6CC /* LSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSModel.h; sourceTree = "<group>"; };
+		696D4928150DE1AB00D8D6CC /* LSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSModel.m; sourceTree = "<group>"; };
+		696D492A150DE1F700D8D6CC /* LSLyricFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LSLyricFile.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		696D492B150DE1F700D8D6CC /* LSLyricFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LSLyricFile.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		696D492D150DE56D00D8D6CC /* LSLyricChunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LSLyricChunk.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		696D492E150DE56D00D8D6CC /* LSLyricChunk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LSLyricChunk.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		69841A2E1505EBAC00AC0F23 /* LSLyricsContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LSLyricsContainerView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		69841A2F1505EBAC00AC0F23 /* LSLyricsContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LSLyricsContainerView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		69841A351506BA7900AC0F23 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		69A191A41504185400995CE5 /* LyricManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LyricManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69A191A81504185400995CE5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		69A191AB1504185400995CE5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		69A191AC1504185400995CE5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		69A191AD1504185400995CE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		69A191B01504185400995CE5 /* LyricManager-Info.plist */ = {isa = PBXFileReference; path = "LyricManager-Info.plist"; sourceTree = "<group>"; };
+		69A191B01504185400995CE5 /* LyricManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LyricManager-Info.plist"; sourceTree = "<group>"; };
 		69A191B21504185400995CE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		69A191B41504185400995CE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		69A191B61504185400995CE5 /* LyricManager-Prefix.pch */ = {isa = PBXFileReference; path = "LyricManager-Prefix.pch"; sourceTree = "<group>"; };
+		69A191B61504185400995CE5 /* LyricManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LyricManager-Prefix.pch"; sourceTree = "<group>"; };
 		69A191B81504185400995CE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		69A191BA1504185400995CE5 /* LSAppDelegate.h */ = {isa = PBXFileReference; path = LSAppDelegate.h; sourceTree = "<group>"; };
-		69A191BB1504185400995CE5 /* LSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSAppDelegate.m; sourceTree = "<group>"; };
+		69A191BA1504185400995CE5 /* LSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LSAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		69A191BB1504185400995CE5 /* LSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LSAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		69A191BE1504185400995CE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		69A191C715041CEA00995CE5 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		69A191C91504229900995CE5 /* LSMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LSMainController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		69A191CA1504229900995CE5 /* LSMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSMainController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69841A361506BA7900AC0F23 /* IOKit.framework in Frameworks */,
+				69A191CC15042D5200995CE5 /* Quartz.framework in Frameworks */,
 				69A191A91504185400995CE5 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +99,8 @@
 		69A191AA1504185400995CE5 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				69841A351506BA7900AC0F23 /* IOKit.framework */,
+				69A191C715041CEA00995CE5 /* Quartz.framework */,
 				69A191AB1504185400995CE5 /* AppKit.framework */,
 				69A191AC1504185400995CE5 /* CoreData.framework */,
 				69A191AD1504185400995CE5 /* Foundation.framework */,
@@ -85,7 +114,22 @@
 				69A191BA1504185400995CE5 /* LSAppDelegate.h */,
 				69A191BB1504185400995CE5 /* LSAppDelegate.m */,
 				69A191BD1504185400995CE5 /* MainMenu.xib */,
+				69A191C91504229900995CE5 /* LSMainController.h */,
+				69A191CA1504229900995CE5 /* LSMainController.m */,
+				69A191B41504185400995CE5 /* main.m */,
 				69A191AF1504185400995CE5 /* Supporting Files */,
+				69841A2E1505EBAC00AC0F23 /* LSLyricsContainerView.h */,
+				69841A2F1505EBAC00AC0F23 /* LSLyricsContainerView.m */,
+				696D4921150D5EC200D8D6CC /* LSPresentationController.h */,
+				696D4922150D5EC200D8D6CC /* LSPresentationController.m */,
+				696D4924150D61A600D8D6CC /* LSCompositionRenderView.h */,
+				696D4925150D61A600D8D6CC /* LSCompositionRenderView.m */,
+				696D4927150DE1AB00D8D6CC /* LSModel.h */,
+				696D4928150DE1AB00D8D6CC /* LSModel.m */,
+				696D492A150DE1F700D8D6CC /* LSLyricFile.h */,
+				696D492B150DE1F700D8D6CC /* LSLyricFile.m */,
+				696D492D150DE56D00D8D6CC /* LSLyricChunk.h */,
+				696D492E150DE56D00D8D6CC /* LSLyricChunk.m */,
 			);
 			path = LyricManager;
 			sourceTree = "<group>";
@@ -95,7 +139,6 @@
 			children = (
 				69A191B01504185400995CE5 /* LyricManager-Info.plist */,
 				69A191B11504185400995CE5 /* InfoPlist.strings */,
-				69A191B41504185400995CE5 /* main.m */,
 				69A191B61504185400995CE5 /* LyricManager-Prefix.pch */,
 				69A191B71504185400995CE5 /* Credits.rtf */,
 			);
@@ -168,6 +211,13 @@
 			files = (
 				69A191B51504185400995CE5 /* main.m in Sources */,
 				69A191BC1504185400995CE5 /* LSAppDelegate.m in Sources */,
+				69A191CB1504229900995CE5 /* LSMainController.m in Sources */,
+				69841A301505EBAC00AC0F23 /* LSLyricsContainerView.m in Sources */,
+				696D4923150D5EC200D8D6CC /* LSPresentationController.m in Sources */,
+				696D4926150D61A600D8D6CC /* LSCompositionRenderView.m in Sources */,
+				696D4929150DE1AB00D8D6CC /* LSModel.m in Sources */,
+				696D492C150DE1F700D8D6CC /* LSLyricFile.m in Sources */,
+				696D492F150DE56D00D8D6CC /* LSLyricChunk.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +337,7 @@
 				69A191C41504185400995CE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

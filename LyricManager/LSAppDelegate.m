@@ -3,7 +3,7 @@
 //  LyricManager
 //
 //  Created by Michael Poindexter on 3/4/12.
-//  Copyright (c) 2012 Qumu. All rights reserved.
+//  Copyright (c) 2012 Michael Poindexter. All rights reserved. See LICENSE for copying details.
 //
 
 #import "LSAppDelegate.h"
@@ -17,9 +17,14 @@
     [super dealloc];
 }
 
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+}
+
+-(BOOL) applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication
+{
+    return YES;
 }
 
 @end
